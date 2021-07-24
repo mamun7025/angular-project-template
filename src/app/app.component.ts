@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import{ Constants } from './config/constants'; 
+import { ApiService } from './service/ApiService';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { ApicallService } from './service/apicall.service';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +11,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-master-prj';
+
+  authName = 'Al-Mamun';
+
+  title = Constants.TitleOfApp; 
+  data: any;
+
+  constructor(){}
+
+  ngOnInit(){
+  }
+
+
+  
+
 }

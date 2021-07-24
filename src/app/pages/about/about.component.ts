@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ApicallService } from '../service/apicall.service';
+import { ApicallService } from 'src/app/service/apicall.service';
 
 
 @Component({

@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import{ Constants } from './config/constants'; 
-import { ApiService } from './service/ApiService';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { ApicallService } from './service/apicall.service';
 
 
 @Component({
@@ -24,5 +21,4 @@ export class AppComponent {
 
 
   
-
 }
